@@ -33,6 +33,7 @@ const PotCard = () => {
 
   const connectWallet = () => {
     setConnected(true)
+    
     console.log("Connecting static wallet")
   }
 
@@ -75,7 +76,7 @@ const PotCard = () => {
           </>
         ) : (
           // Wallet multibutton goes here
-          <button onClick={() => connectWallet()}>Connect Wallet</button>
+          <WalletMultiButton/>
         )}
       </div>
     );
