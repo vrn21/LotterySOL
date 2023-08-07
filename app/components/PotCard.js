@@ -76,7 +76,7 @@ const PotCard = () => {
           </>
         ) : (
           // Wallet multibutton goes here
-          <WalletMultiButton/>
+          <WalletMultiButton/>  
         )}
       </div>
     );
